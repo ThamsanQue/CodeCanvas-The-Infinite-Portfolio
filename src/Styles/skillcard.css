@@ -1,0 +1,18 @@
+.skillCard__ {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.skillCard__body {
+  margin-left: 15px;
+}
+
+.skillCard__content {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6e7e91;
+}

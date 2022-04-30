@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap");
+
+.sidebar__ {
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px #1772cb;
+  text-align: center;
+}
+
+.sidebar__ > .MuiAvatar-root {
+  height: 130px !important;
+  width: 130px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.MuiSvgIcon-root {
+  width: 30px !important;
+  height: 30px !important;
+  color: #1772cb;
+}
+
+.sidebar__profileName {
+  font-family: "Kaushan Script";
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+.sidebar__profileName > span {
+  color: #1772cb;
+}
+
+.sidebar__option {
+  margin-bottom: 6px;
+  padding-top: 6px;
+  height: 40px;
+  font-size: 1.05rem;
+  border-radius: 30px;
+}
+
+.sidebar__professionTitle {
+  background-color: #f1f1f1;
+  border-radius: 30px;
+}
+.sidebar__contact {
+  background-color: #dbdddf;
+  padding: 2px 0;
+  margin: 20px -15px;
+}
+
+.sidebar__github:hover {
+  background-color: #f1f1f2;
+  color: #1772cb;
+}
+.sidebar__email {
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(23, 114, 203, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 30px;
+  color: white;
+  margin: 15px 25px 0px;
+  cursor: pointer;
+  transition: all 3s linear;
+}
+
+.sidebar__email:hover {
+  transform: scale(1.2);
+}
