@@ -66,8 +66,7 @@ const data_projects = [
   {
     name: "Ecommerce inspired by Evetech",
     image: evetech,
-    deployed_url:
-      "https://next-ecommerce-demo-4cjcizkwy-thamsanque.vercel.app/",
+    deployed_url: "https://next-ecommerce-demo-five.vercel.app/",
     github_url: "https://github.com/ThamsanQue/NextEcommerceDemo",
     category: ["WebApp clones"],
   },
