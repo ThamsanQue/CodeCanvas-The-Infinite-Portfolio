@@ -8,7 +8,7 @@ const skills = [
     icon: <ImportantDevices />,
     title: "FrontEnd Development.",
     about:
-      "I can build a beautiful and scalable SPA using HTML, CSS and React.js",
+      "I can build beautiful and scalable SPAs and MPAs using the latest frontend libraries and frameworks. Most preferable React's Nextjs",
   },
 
   {
@@ -19,7 +19,7 @@ const skills = [
   {
     icon: <Laptop />,
     title: "UI/UX designer",
-    about: "Minimalistic user interface designer using Framer and Adobe XD",
+    about: "Minimalistic user interface designer using Framer and Figma",
   },
   {
     icon: <Image />,

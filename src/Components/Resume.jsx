@@ -1,21 +1,19 @@
 import React from "react";
 import "../Styles/resume.css";
 import Bar from "./Bar";
-import {
-  IoLogoCss3,
-  IoLogoHtml5,
-  IoLogoJavascript,
-  IoLogoReact,
-} from "react-icons/io5";
+import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import {
   SiAdobeillustrator,
   SiAdobephotoshop,
-  SiAdobexd,
+  SiFigma,
   SiFirebase,
   SiFlutter,
   SiFramer,
-  SiMaterialUi,
+  SiMysql,
+  SiNextDotJs,
   SiNodeDotJs,
+  SiPostgresql,
+  SiTypescript,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -26,19 +24,18 @@ const languages = [
     level: "80",
   },
   {
-    icon: <IoLogoHtml5 />,
-    name: "HTML",
+    icon: <SiTypescript />,
+    name: "TypeScript",
     level: "60",
   },
   {
-    icon: <IoLogoCss3 />,
-    name: "CSS",
-    level: "55",
-  },
-
-  {
     icon: <IoLogoReact />,
     name: "React",
+    level: "70",
+  },
+  {
+    icon: <SiNextDotJs />,
+    name: "Nextjs",
     level: "70",
   },
 
@@ -46,6 +43,16 @@ const languages = [
     icon: <SiFirebase />,
     name: "Firebase",
     level: "70",
+  },
+  {
+    icon: <SiMysql />,
+    name: "MySQL",
+    level: "60",
+  },
+  {
+    icon: <SiPostgresql />,
+    name: "postgreSQL",
+    level: "50",
   },
 
   {
@@ -65,18 +72,12 @@ const languages = [
     name: "React Native",
     level: "60",
   },
-
-  {
-    icon: <SiMaterialUi />,
-    name: "MaterialUi",
-    level: "70",
-  },
 ];
 
 const tools = [
   {
-    icon: <SiAdobexd />,
-    name: "Adobe XD",
+    icon: <SiFigma />,
+    name: "Figma",
     level: "50",
   },
   {

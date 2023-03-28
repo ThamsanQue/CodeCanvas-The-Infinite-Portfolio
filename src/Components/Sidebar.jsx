@@ -47,16 +47,25 @@ function Sidebar() {
         <a
           href="https://www.linkedin.com/in/thamsanqa-j-31171b1a5/"
           target="_blank"
+          rel="noreferrer"
         >
           <LinkedIn className="mr-3" />
         </a>
-        <a href="https://www.instagram.com/dream__dev/" target="_blank">
+        <a
+          href="https://www.instagram.com/dream__dev/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Instagram />
         </a>
       </figure>
       <div className="sidebar__contact">
         <div className="sidebar__option sidebar__github">
-          <a href="https://github.com/ThamsanQue" target="_blank">
+          <a
+            href="https://github.com/ThamsanQue"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GitHub className="mr-3" />
             GitHub
           </a>
@@ -66,7 +75,7 @@ function Sidebar() {
           Johannesburg, South Africa
         </div>
         <div className="sidebar__option">thamsanqa.dev@gmail.com</div>
-        <div className="sidebar__option">+27 62 570 6693</div>
+        <div className="sidebar__option">068 376 5306</div>
       </div>
       <div className="sidebar__option sidebar__email" onClick={handleEmail}>
         Email me

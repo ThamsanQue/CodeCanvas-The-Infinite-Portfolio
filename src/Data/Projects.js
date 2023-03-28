@@ -6,6 +6,8 @@ import igk from "../Assets/Ingubokagogo.png";
 import AI from "../Assets/AiNewsApp.png";
 import netflix from "../Assets/netflix.png";
 import jobills from "../Assets/jobills.png";
+import OnTyme from "../Assets/ontyme.png";
+import evetech from "../Assets/evetech.JPG";
 
 const data_projects = [
   {
@@ -42,13 +44,6 @@ const data_projects = [
     deployed_url: "https://www.ingubokagogo.co.za/",
     category: ["Clients"],
   },
-
-  {
-    name: "AI Voice driven News App",
-    image: AI,
-    deployed_url: "https://ai-newsapp.web.app/",
-    category: ["WebApp clones"],
-  },
   {
     name: "Netflix-Clone",
     image: netflix,
@@ -61,6 +56,20 @@ const data_projects = [
     image: jobills,
     deployed_url: "http://www.jobills.com/",
     category: ["Clients"],
+  },
+  {
+    name: "OnTyme",
+    image: OnTyme,
+    deployed_url: "https://ontyme.co.za/",
+    category: ["Clients"],
+  },
+  {
+    name: "Ecommerce inspired by Evetech",
+    image: evetech,
+    deployed_url:
+      "https://next-ecommerce-demo-4cjcizkwy-thamsanque.vercel.app/",
+    github_url: "https://github.com/ThamsanQue/NextEcommerceDemo",
+    category: ["WebApp clones"],
   },
 ];
 
