@@ -3,11 +3,11 @@ import hulu from "../Assets/Hulu.png";
 import airbnb from "../Assets/Airbnb.png";
 import whatsapp from "../Assets/whatsApp.png";
 import igk from "../Assets/Ingubokagogo.png";
-import AI from "../Assets/AiNewsApp.png";
 import netflix from "../Assets/netflix.png";
 import jobills from "../Assets/jobills.png";
 import OnTyme from "../Assets/ontyme.png";
 import evetech from "../Assets/evetech.JPG";
+import flow from "../Assets/flow.webp";
 
 const data_projects = [
   {
@@ -69,6 +69,12 @@ const data_projects = [
     deployed_url: "https://next-ecommerce-demo-five.vercel.app/",
     github_url: "https://github.com/ThamsanQue/NextEcommerceDemo",
     category: ["WebApp clones"],
+  },
+  {
+    name: "Flowliving",
+    image: flow,
+    deployed_url: "https://flowliving.com/",
+    category: ["Clients"],
   },
 ];
 

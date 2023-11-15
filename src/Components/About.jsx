@@ -58,10 +58,14 @@ function About() {
       exit="exit"
     >
       <h6 className="about__intro">
-        I am passionate about building excellent software that improves the
-        lives of those around me. I specialize in creating web & mobile apps for
-        clients ranging from individuals, startups and small-businesses. Have a
-        project, idea or problem you'd like to discuss? Email or call me!
+        I see a world 🌎 where I pour my coding passion into building products
+        💻 as a mission, not just another gig. It's about creating solutions
+        that empower others to chase their dreams 🚀, a journey filled with that
+        electric spark ✨, that excitement 🎉, that thrill of making the
+        unimaginable future come to life. We're dream weavers 💭, creators of
+        something extraordinary, one line at a time. Together, we amplify our
+        impact and turn dreams into reality, driven by pure ambition and
+        innovation 💪.
       </h6>
       <div className="container about__container">
         <h6 className="about__heading">What I offer</h6>

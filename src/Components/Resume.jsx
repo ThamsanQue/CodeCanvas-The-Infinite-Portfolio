@@ -6,48 +6,55 @@ import {
   SiAdobeillustrator,
   SiAdobephotoshop,
   SiFigma,
-  SiFirebase,
-  SiFlutter,
+  SiTailwindcss,
+  SiTrpc,
+  SiPrisma,
   SiFramer,
   SiMysql,
-  SiNextDotJs,
-  SiNodeDotJs,
+  SiNextdotjs,
   SiPostgresql,
   SiTypescript,
+  SiNodedotjs,
+  SiPlanetscale,
+  SiNestjs,
+  SiSupabase,
+  SiFirebase,
 } from "react-icons/si";
 import { motion } from "framer-motion";
+import DrizzleIcon from "../Assets/icons/drizzleIcon";
+import TanStack from "../Assets/TanStack.svg";
 
 const languages = [
   {
     icon: <IoLogoJavascript />,
     name: "JavaScript",
-    level: "80",
+    level: "90",
   },
   {
     icon: <SiTypescript />,
     name: "TypeScript",
-    level: "60",
+    level: "80",
   },
   {
     icon: <IoLogoReact />,
     name: "React",
-    level: "70",
+    level: "80",
   },
   {
-    icon: <SiNextDotJs />,
+    icon: <SiNextdotjs />,
     name: "Nextjs",
     level: "70",
   },
 
   {
-    icon: <SiFirebase />,
-    name: "Firebase",
+    icon: <SiPrisma />,
+    name: "Prisma",
     level: "70",
   },
   {
     icon: <SiMysql />,
     name: "MySQL",
-    level: "60",
+    level: "70",
   },
   {
     icon: <SiPostgresql />,
@@ -56,20 +63,29 @@ const languages = [
   },
 
   {
-    icon: <SiNodeDotJs />,
+    icon: <SiNodedotjs />,
     name: "NodeJs",
-    level: "65",
+    level: "80",
   },
-
   {
-    icon: <SiFlutter />,
-    name: "Flutter",
-    level: "68",
+    icon: <SiNestjs />,
+    name: "NestJs",
+    level: "70",
+  },
+  {
+    icon: <SiTrpc />,
+    name: "TRPC",
+    level: "60",
   },
 
   {
     icon: <IoLogoReact />,
     name: "React Native",
+    level: "60",
+  },
+  {
+    icon: <DrizzleIcon />,
+    name: "Drizzle",
     level: "60",
   },
 ];
@@ -95,6 +111,41 @@ const tools = [
     icon: <SiFramer />,
     name: "Framer",
     level: "55",
+  },
+  {
+    icon: <SiTailwindcss />,
+    name: "TailwindCss",
+    level: "70",
+  },
+  {
+    icon: <SiPlanetscale />,
+    name: "PlanetScale",
+    level: "80",
+  },
+  {
+    icon: <SiSupabase />,
+    name: "Supabase",
+    level: "70",
+  },
+  {
+    icon: <SiFirebase />,
+    name: "Firebase",
+    level: "80",
+  },
+  {
+    icon: (
+      <img
+        src={TanStack}
+        alt="tanStack"
+        style={{
+          width: "20px",
+          height: "20px",
+          backgroundColor: "white",
+        }}
+      />
+    ),
+    name: "TanStack",
+    level: "80",
   },
 ];
 
@@ -142,7 +193,10 @@ function Resume() {
         <div className="col-lg-6 resume__card">
           <h4 className="resume__cardHeader">Experience</h4>
           <div className="resume__cardBody">
-            <h5 className="resume__cardTitle">Freelance Developer</h5>
+            <h5 className="resume__cardTitle">
+              FullStack Developer{" "}
+              <a href="https://flowliving.com/">@Flowliving</a>
+            </h5>
             <p className="resume__cardContent">
               Keen on working with ambitious individuals, startups and
               businesses with the goal of changing the world.

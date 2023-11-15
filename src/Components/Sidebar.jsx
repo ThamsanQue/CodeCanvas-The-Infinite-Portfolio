@@ -1,14 +1,10 @@
-import {
-  GitHub,
-  Instagram,
-  LinkedIn,
-  PersonPinCircle,
-} from "@material-ui/icons";
+import { GitHub, LinkedIn, PersonPinCircle } from "@material-ui/icons";
 import React from "react";
 import "../Styles/sidebar.css";
 import TJN from "../Assets/ThamsanqaJ.JPG";
 import { Avatar } from "@material-ui/core";
 import { motion } from "framer-motion";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 function Sidebar() {
   const handleEmail = () => {
@@ -52,11 +48,11 @@ function Sidebar() {
           <LinkedIn className="mr-3" />
         </a>
         <a
-          href="https://www.instagram.com/dream__dev/"
+          href="https://twitter.com/Thamsanqa1402"
           target="_blank"
           rel="noreferrer"
         >
-          <Instagram />
+          <FaSquareXTwitter size={25} />
         </a>
       </figure>
       <div className="sidebar__contact">
@@ -75,7 +71,7 @@ function Sidebar() {
           Johannesburg, South Africa
         </div>
         <div className="sidebar__option">thamsanqa.dev@gmail.com</div>
-        <div className="sidebar__option">068 376 5306</div>
+        <div className="sidebar__option">068 373 1836</div>
       </div>
       <div className="sidebar__option sidebar__email" onClick={handleEmail}>
         Email me
