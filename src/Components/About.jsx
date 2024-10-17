@@ -58,14 +58,13 @@ function About() {
       exit="exit"
     >
       <h6 className="about__intro">
-        I see a world 🌎 where I pour my coding passion into building products
-        💻 as a mission, not just another gig. It's about creating solutions
-        that empower others to chase their dreams 🚀, a journey filled with that
-        electric spark ✨, that excitement 🎉, that thrill of making the
-        unimaginable future come to life. We're dream weavers 💭, creators of
-        something extraordinary, one line at a time. Together, we amplify our
-        impact and turn dreams into reality, driven by pure ambition and
-        innovation 💪.
+        I believe in building products with purpose—solutions that empower
+        others to chase their dreams and turn ideas into reality. Coding is more
+        than just a skill for me; it's a way to create the future, one line at a
+        time. Driven by passion and innovation, I focus on crafting tools that
+        spark excitement and open new possibilities. Every project is an
+        opportunity to bring the extraordinary to life, and together, we can
+        amplify that impact and push the boundaries of what's possible.
       </h6>
       <div className="container about__container">
         <h6 className="about__heading">What I offer</h6>

@@ -8,6 +8,11 @@ import jobills from "../Assets/jobills.png";
 import OnTyme from "../Assets/ontyme.png";
 import evetech from "../Assets/evetech.JPG";
 import flow from "../Assets/flow.webp";
+import okay from "../Assets/ok.png";
+import shelevelledup from "../Assets/shelevelledup.png";
+import tus from "../Assets/tus.png";
+import trustmarkt from "../Assets/trustmarkt.png";
+import datainc from "../Assets/datainc.png";
 
 const data_projects = [
   {
@@ -75,6 +80,37 @@ const data_projects = [
     image: flow,
     deployed_url: "https://flowliving.com/",
     category: ["Clients"],
+  },
+  {
+    name: "TrustMarkt",
+    image: trustmarkt,
+    deployed_url: "https://trustmarkt.online/",
+    category: ["Open Source projects"],
+  },
+  {
+    name: "The Underground Scene",
+    image: tus,
+    deployed_url: "https://tus.streetcrisis.online/",
+    category: ["Open Source projects"],
+  },
+  {
+    name: "She Levelled Up",
+    image: shelevelledup,
+    deployed_url: "https://shelevelledup.africa/",
+    category: ["Clients"],
+  },
+
+  {
+    name: "Data Inc",
+    image: datainc,
+    deployed_url: "https://www.data-inc.co.za/",
+    category: ["Clients"],
+  },
+  {
+    name: "OpenKommerce",
+    image: okay,
+    deployed_url: "https://site.openkommerce.africa/",
+    category: ["Open Source projects"],
   },
 ];
 
