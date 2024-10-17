@@ -86,12 +86,14 @@ const data_projects = [
     image: trustmarkt,
     deployed_url: "https://trustmarkt.online/",
     category: ["Open Source projects"],
+    github_url: "https://github.com/ThamsanQue/TrustMarkt",
   },
   {
     name: "The Underground Scene",
     image: tus,
     deployed_url: "https://tus.streetcrisis.online/",
     category: ["Open Source projects"],
+    github_url: "https://github.com/ThamsanQue/the-underground-scene",
   },
   {
     name: "She Levelled Up",
@@ -111,6 +113,7 @@ const data_projects = [
     image: okay,
     deployed_url: "https://site.openkommerce.africa/",
     category: ["Open Source projects"],
+    github_url: "https://github.com/ThamsanQue/openKommerce",
   },
 ];
 

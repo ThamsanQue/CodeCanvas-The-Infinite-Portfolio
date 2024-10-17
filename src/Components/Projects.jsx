@@ -43,12 +43,12 @@ function Projects() {
       <div className="projects__navbar">
         <div onClick={() => setProjects(data_projects)}>All</div>
         <div onClick={() => handleFilterCategory("WebApp clones")}>
-          WebApp clones & Personal apps
-        </div>
-        <div onClick={() => handleFilterCategory("MobileApp clones")}>
-          MobileApp clones
+          WebApp clones
         </div>
         <div onClick={() => handleFilterCategory("Clients")}>Clients</div>
+        <div onClick={() => handleFilterCategory("Open Source projects")}>
+          Open Source Projects
+        </div>
       </div>
       <div className="row">
         {projects.map((project) => (
