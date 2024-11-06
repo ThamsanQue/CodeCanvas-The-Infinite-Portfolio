@@ -13,7 +13,7 @@ import shelevelledup from "../Assets/shelevelledup.png";
 import tus from "../Assets/tus.png";
 import trustmarkt from "../Assets/trustmarkt.png";
 import datainc from "../Assets/datainc.png";
-
+import bcl from "../Assets/bcl.png";
 const data_projects = [
   {
     name: "Facebook Clone",
@@ -114,6 +114,13 @@ const data_projects = [
     deployed_url: "https://site.openkommerce.africa/",
     category: ["Open Source projects"],
     github_url: "https://github.com/ThamsanQue/openKommerce",
+  },
+  {
+    name: "Beauté Creative Lab ",
+    image: bcl,
+    deployed_url: "https://www.beautecreativelab.online/",
+    category: ["Open Source projects, Clients"],
+    github_url: "https://github.com/ThamsanQue/beautecreativelab",
   },
 ];
 
