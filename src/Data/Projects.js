@@ -119,7 +119,7 @@ const data_projects = [
     name: "Beauté Creative Lab ",
     image: bcl,
     deployed_url: "https://www.beautecreativelab.online/",
-    category: ["Open Source projects, Clients"],
+    category: ["Clients"],
     github_url: "https://github.com/ThamsanQue/beautecreativelab",
   },
 ];
